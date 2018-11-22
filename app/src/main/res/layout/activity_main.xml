@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c7a693"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#49412c"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="30sp"
+                android:text="কুকুর,মুরগি আর শেয়াল"
+                android:background="#E3F09B"
+                android:onClick="sendKukur"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="30sp"
+                android:text="দুই ব্যাঙ"
+                android:background="#4DB6AC"
+                android:onClick="sendBang"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="30sp"
+                android:text="জেলে ও ছোট্ট মাছ"
+                android:background="#62bcfa"
+                android:onClick="sendJele"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

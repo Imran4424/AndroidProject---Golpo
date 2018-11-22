@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3E2723"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সোনামণি"
+        android:textSize="65sp"
+        android:textColor="#FFFDD0"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="70dp"
+        android:paddingBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="দের"
+        android:textSize="65sp"
+        android:textColor="#FFFDD0"
+        android:paddingLeft="198dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="গল্প"
+        android:textSize="173sp"
+        android:textColor="#FFFDD0"
+        android:paddingLeft="52dp"
+        />
+
+
+</LinearLayout>
